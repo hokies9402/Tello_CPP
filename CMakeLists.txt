@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED( VERSION 2.8.9 )
+PROJECT( Tello_CPP )
+
+SET( SOURCES Tello_Socket.cpp main.cpp )
+
+ADD_EXECUTABLE( tello_test ${SOURCES} )
+
